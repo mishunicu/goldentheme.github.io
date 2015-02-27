@@ -6,7 +6,7 @@
     margin: 0 auto;
     width: 1400px;
     height: 700px;
-    background-image: url("images/landing_image.png");
+    background-image: url(images/landing_image.png);
     background-repeat:no-repeat;
     background-size: 100% 100%;
 }
