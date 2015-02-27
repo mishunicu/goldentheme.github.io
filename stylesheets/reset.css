@@ -1,0 +1,322 @@
+.clear{
+    clear: both;
+}
+
+#landing{
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+    background-image: url("images/landing_image.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#logo{
+    width:79px;
+    height: 28px;
+    background: url("images/logo-golden.png");
+    display: block;
+    margin: 44px 230px;
+    float:left;
+}
+
+nav{
+    width: 580px;
+    height: 10px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 130px;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    display: block;
+    line-height: 41px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+
+nav ul li a:hover{
+    color:#fed136;
+}
+
+#landing h3{
+    font: italic 40px DroidSerif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 135px;
+}
+
+#landing h2{
+    font: 700 75px Montserrat;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button{
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    border-radius: 3px;
+    margin: 59px auto
+}
+
+
+.button a{
+    font: 700 18px Montserrat;
+    text-decoration: none;
+    text-align: center;
+    line-height: 65px;
+    display:block;
+    color: #ffffff; 
+}
+
+.button a:hover{
+    color: #777777;
+}
+
+#services{
+    width: 1400px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+.offer{
+    margin-top: 120px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.description{
+    font: italic 16px DroidSerif;
+    color: #777777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#services div{
+    width: 274px;
+    float: left;
+    text-align: center;
+    margin: 77px 95px;    
+}
+
+#services div h3{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    margin: 15px;
+}
+
+#services div p{
+    font: 400 14px RobotoSlab;
+    color: #777777;
+    line-height: 20px;
+}
+
+#portfolio{
+    width: 1400px;
+    height: 1218px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    padding-top: 1px
+}
+
+.mini_portfolio_top{
+    display: inline-block;
+    margin: 75px 20px 50px 20px;
+}
+
+#top_left, #bottom_left{
+    margin-left: 230px;
+}
+
+.mini_portfolio_bottom{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#portfolio div h3{
+    font: 700 18px Montserrat;
+    color: #333333;
+    text-align: center;
+    margin-top: 28px; 
+}
+
+#portfolio div p{
+    font: italic 14px DroidSerif;
+    color: #737373;
+    text-align: center;
+}
+
+#portfolio div a img:hover{
+    box-shadow: 10px 10px 5px #777777;
+}
+
+#about{
+    margin-top: 140px;
+    text-align: center;
+}
+.left_story h3, .right_story h3{
+    font: 700 18px Montserrat;
+    color: #222222;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.left_story, .right_story{
+    width: 250px;
+    display: inline-block;
+}
+
+.left_story{
+    margin-top: 100px;
+}
+
+.right_story{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.left_story p, .right_story p{
+    font: 400 14px RobotoSlab;
+    color: #777777;
+    display: inline-block;
+    height: 90px;
+    line-height: 18px;
+}
+
+.left_story p, .left_story h3{
+    text-align: right;
+}
+
+.left_pic{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.right_pic{
+    margin-top: 100px;
+}
+
+#middle_story{
+    width: 169px;
+    height: 169px;
+    border-radius: 50%;
+    background-color: #fed136;
+    text-align: center;
+    margin: 100px auto;
+}
+
+#middle_story p{
+    font: 700 18px Montserrat;
+    width: 107px;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+}
+
+#team{
+    height: 700px;
+    text-align: center;
+}
+
+#team div{
+    display: inline-block;
+    margin: 60px 15px 40px 15px;
+    text-align: center;
+}
+
+.picture{
+    width: 220px;
+    height: 221px;
+    background-color: #111111;
+    border-radius: 50%;
+}
+
+#team div h3{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #222222;
+}
+
+#team div p{
+    font: 400 14px RobotoSlab;
+    color: #777777;
+}
+
+#company_objective{
+    font:400 18px RobotoSlab;
+    color: #777777;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#contact{
+    background: url(images/contact_background.png);
+    width: 1400px;
+    height: 677px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+#contact h3{
+    color:#ffffff;   
+}
+
+.form_left{
+    float: left;
+    margin: 50px 0 0 200px;
+}
+
+.form_left p input{
+    width: 455px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 2px;
+}
+
+.form_right{
+    float:left;
+    margin: 65px 0 0 30px;
+}
+
+.form_right textarea{
+    width: 455px;
+    height: 215px;
+    border-radius: 2px;
+}
+[placeholder] {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #222222;
+    vertical-align: middle;
+}
+
+footer{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+footer p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 30px; 
+}
