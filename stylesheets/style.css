@@ -6,7 +6,7 @@
     margin: 0 auto;
     width: 1400px;
     height: 700px;
-    background-image: url("..images/landing_image.png");
+    background-image: url("../images/landing_image.png");
     background-repeat:no-repeat;
     background-size: 100% 100%;
 }
@@ -14,7 +14,7 @@
 #logo{
     width:79px;
     height: 28px;
-    background: url("..images/logo-golden.png");
+    background: url("../images/logo-golden.png");
     display: block;
     margin: 44px 230px;
     float:left;
@@ -268,7 +268,7 @@ nav ul li a:hover{
 }
 
 #contact{
-    background: url("..images/contact_background.png");
+    background: url("../images/contact_background.png");
     width: 1400px;
     height: 677px;
     margin: 0 auto;
